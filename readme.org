@@ -1,0 +1,2 @@
+* Building resume:
+pdflatex resume.tex 
