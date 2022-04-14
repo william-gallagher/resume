@@ -1,0 +1,133 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[most]{tcolorbox}
+
+\usepackage{hyperref}
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=0.1cm,
+  right=0.1cm,
+  top=0.1cm,
+  bottom=0.1cm
+}
+
+\colorlet{titleBack}{gray!10}
+
+\title{William Gallagher}
+
+\begin{document}
+{\fontfamily{bch}\selectfont
+
+\tcbset{colframe=white!10!,arc=0mm}
+\begin{tcolorbox}
+  \begin{minipage}{.5\textwidth}
+    \huge{William Gallagher}
+  \end{minipage}
+  \begin{minipage}{.5\textwidth}
+      \begin{center}
+        \begin{flushright}
+          {\textcolor{black}
+            {
+              {\fontfamily{bch}\selectfont
+                wfgallagher@gmail.com  401.477.3640\\
+                \href{https://www.linkedin.com/in/william-gallagher-705199170}{Linkedin} \\
+                \href{https://www.github.com}{github placeholder} \\
+              }
+            }
+          }
+        \end{flushright}
+      \end{center}
+  \end{minipage}
+\end{tcolorbox}
+
+\tcbset{colframe=brown!76!orange,colback=white!95!black}
+\begin{tcolorbox}
+  {\fontfamily{bch}\selectfont
+    \LARGE{Education}
+  }
+\end{tcolorbox}
+
+
+\tcbset{colframe=brown!76!orange,colback=white!25}
+\begin{tcolorbox}
+  \begin{itemize}
+  \item
+    {
+      \textbf{State University of New York Maritime College, Bronx, NY} \\
+      August 2007 - Semptember 2010 \\
+      Bachelors of Engineering in Naval Architecture GPA 3.87/4.00 \\
+      Lots of awards etc
+    }
+  \item
+    {
+      \textbf{Worcester Polytechnic Institute, Worcester, MA} \\
+      January 2019 - June 2020 \\
+      Master of Science in Computer Science GPA 4.00/4.00 \\
+      Kindof minor in FPGA/hardware/verilog/altera environment \\
+      Give the details of the darknet/SGX paper or just say see below...
+    }
+  \end{itemize}
+\end{tcolorbox}
+
+\tcbset{colframe=brown!76!orange,colback=pink!25}
+\begin{tcolorbox}
+  {\fontfamily{bch}\selectfont
+    \LARGE{Work Experience}
+  }
+
+\end{tcolorbox}
+
+\tcbset{colframe=brown!76!orange,colback=white!25}
+\begin{tcolorbox}
+
+  \begin{itemize}
+  \item
+    {
+      \textbf{Hyannis Port Research (HPR): Software Engineer} \\
+      August 2020 - Present \\
+      Developed low-latency financial markets infrastructure written in C and run in Linux Environment \\
+      Debugging Custom TCP/IP stacks \\
+      Created interface for trading with Miami Exchange \\
+      Developed gitlab pipeline to run and report errors with Address Sanitizer flags.. \\
+      Created debian packages for distributing and installing kernel modules and thirdparty software as part of move to Ubuntu server from CentOS
+    }
+
+  \item
+    {
+      \textbf{WPI CS Department: Teaching Assistant} \\
+      January 2020 - March 2020 \\
+      TA for undergraduate Operating Systems class. Responsibilities included holding office hours and quiz and project grading. Heavy use of scripting to automate input and
+    }
+
+  \item
+    {
+      \textbf{McAllister Towing and Transportation, Interlake Steamship, others} \\
+      September 2010 - August 2019 \\
+      Assistant Engineer/ Chief Engineer on vessels of length 90 to 1000 feet. Maintence of main engines, generators, hydraulics, etc.
+    }
+  \end{itemize}
+
+
+
+  \section*{Publications}
+  \textbf{Memory-Efficient Deep Learning Inference in Trusted Execution Environment} \\
+  \href{http://arxiv-export-lb.library.cornell.edu/abs/2104.15109?context=cs.LG}{Something Linky} \\
+  Accepted to 2021 IEEE Conference on Cloud Computing \\
+
+  \section*{Contact}
+  \begin{tabular}{r l}
+    Tel: & 401.477.3640 \\
+    Email: & wfgallagher@gmail.com \\
+  \end{tabular}
+
+  \section*{Languages}
+  \begin{itemize}
+    \item{C}
+    \item{Bash}
+    \item{Perl}
+  \end{itemize}
+
+\end{tcolorbox}
+}
+\end{document}
