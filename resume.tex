@@ -24,7 +24,10 @@
 \tcbset{colframe=blue!50!,colback=blue!10,arc=3mm}
 \begin{tcolorbox}
   \begin{minipage}{.5\textwidth}
-    \huge{William Gallagher}
+    \underline{\huge{\textbf{William Gallagher}}}\\
+    \normalsize{wfgallagher@gmail.com}
+    \textbar
+    \normalsize{ 401.477.3640}
   \end{minipage}
   \begin{minipage}{.5\textwidth}
       \begin{center}
@@ -32,9 +35,10 @@
           {\textcolor{black}
             {
               {\fontfamily{bch}\selectfont
-                wfgallagher@gmail.com  401.477.3640\\
-                \href{https://www.linkedin.com/in/william-gallagher-705199170}{Linkedin} \\
-                \href{https://www.github.com}{github placeholder} \\
+                \begin{tabular} {r l}
+                  \href{https://www.linkedin.com/in/william-gallagher-705199170}{Linkedin} \\
+                  \href{https://github.com/william-gallagher/}{github} \\
+                \end{tabular}
               }
             }
           }
@@ -58,9 +62,9 @@
       \hfill
       \large{Jan 2019 - July 2020}
       \begin{itemize}[noitemsep]
-        \item Master of Science in Computer Science GPA 4.00/4.00
-        \item Kindof minor in FPGA/hardware/verilog/altera environment
-        \item Give the details of the darknet/SGX paper or just say see below...
+        \item Master of Science in Computer Science: GPA 4.00/4.00
+        \item Focused on systems programming (Networks, Operating Systems) 
+        \item Crossover classes in EE department (Computer Architecture, FPGA Design)
 
       \end{itemize}
 
@@ -68,8 +72,8 @@
       \hfill
       \large{Aug 2007 - Sep 2010}
       \begin{itemize}[noitemsep]
-        \item Bachelors of Engineering in Naval Architecture GPA 3.87/4.00
-        \item Lots of awards etc
+        \item Bachelors of Engineering in Naval Architecture: GPA 3.87/4.00
+        \item Admiral's List (High Honors) all six semesters 
       \end{itemize}
 \end{tcolorbox}
 
@@ -87,11 +91,12 @@
   \hfill
   \large{Aug 2020 - Present}
   \begin{itemize}[noitemsep]
-    \item Developed low-latency financial markets infrastructure written in C and run in Linux Environment
-    \item Debugging Custom TCP/IP stacks
-    \item Created interface for trading with Miami Exchange
-    \item Developed gitlab pipeline to run and report errors with Address Sanitizer flags..
+    \item Developed low-latency financial markets infrastructure written in C and run in Linux Environments
+    \item Developed the client interface for trading with Miami Equities Exchange (MIAX) through HPR's risk checking platform
+    \item Added Gitlab CI job to build and run nightly regression tests with Address Sanitizer flags for detecting memory corruptions
+    \item Converted internal and 3rd party tool packages from RPMs to DEB packages as part of move to Ubuntu for 200 Production servers
     \item Created debian packages for distributing and installing kernel modules and thirdparty software as part of move to Ubuntu server from CentOS
+    \item Debugging TCP issues through HPR's FPGA based risk checking solution including custom client network stacks
   \end{itemize}
 
   \large{\textbf{WPI CS Department: Teaching Assistant}}
@@ -135,12 +140,6 @@
   }
 
   \tcblower
-
-  \section*{Contact}
-  \begin{tabular}{r l}
-    Tel: & 401.477.3640 \\
-    Email: & wfgallagher@gmail.com \\
-  \end{tabular}
 
   \section*{Skills}
   \begin{itemize}[noitemsep]
