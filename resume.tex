@@ -27,7 +27,7 @@
 \begin{tcolorbox}
   \begin{minipage}{.5\textwidth}
     \underline{\huge{\textbf{William Gallagher}}}\\
-    \normalsize{wfgallagher@gmail.com}
+    \normalsize{william.francis.gallagher@gmail.com}
     \textbar
     \normalsize{ 401.477.3640}
   \end{minipage}
@@ -50,6 +50,45 @@
 \end{tcolorbox}
 
 \tcbset{skin=bicolor,colframe=blue!50!white,colback=blue!10,colbacklower=white!100,arc=3mm}
+\begin{tcolorbox}
+
+  {\fontfamily{bch}\selectfont
+    \begin{center}
+      \LARGE{Work Experience}
+    \end{center}
+  }
+
+  \tcblower
+
+  \large{\textbf{Hyannis Port Research (HPR): Software Engineer II}}
+  \hfill
+  \large{Aug 2020 - Present}
+  \begin{itemize}[noitemsep]
+    \item Lead Software engineer for integrated FPGA/Software product with global deployment that risk checks 10\% of US equities traffic and 50\% of Austalian equities traffic
+    \item Developed low-latency financial markets infrastructure written in C and run in Linux Environments
+    \item Developed the client interface for trading with Miami Equities Exchange (MIAX) through HPR's risk checking platform
+    \item Debugged TCP issues through HPR's FPGA based risk checking solution including custom client network stacks
+    \item Added Gitlab CI job to build and run nightly regression tests with Address Sanitizer flags for detecting memory corruptions
+    \item Converted internal and 3rd party tool packages from RPMs to DEB packages as part of move to Ubuntu for 200 Production servers
+    %\item Created debian packages for distributing and installing kernel modules and thirdparty software as part of move to Ubuntu server from CentOS
+  \end{itemize}
+
+  \large{\textbf{WPI CS Department: Teaching Assistant}}
+  \hfill
+  \large{Jan 2020 - Mar 2020}
+  \begin{itemize}[noitemsep]
+    \item TA for undergraduate Operating Systems class. Responsibilities included grading quizzes, holding office hours and assisting students with projects including recomplining the linux kernel with additional syscalls. Grading projects included creating test cases and scripting the project evaluation.
+  \end{itemize}
+
+  \large{\textbf{Providence Steamboat, Interlake Steamship: Maritime Engineer}}
+  \hfill
+  \large{Sep 2010 - Aug 2019}
+  \begin{itemize}[noitemsep]
+    \item Assistant Engineer/ Chief Engineer on vessels of length 90 to 1000 feet. Maintence of main engines, generators and hydraulics.
+  \end{itemize}
+
+\end{tcolorbox}
+
 \begin{tcolorbox}
 
   {\fontfamily{bch}\selectfont
@@ -83,44 +122,6 @@
 
   {\fontfamily{bch}\selectfont
     \begin{center}
-      \LARGE{Work Experience}
-    \end{center}
-  }
-
-  \tcblower
-
-  \large{\textbf{Hyannis Port Research (HPR): Software Engineer II}}
-  \hfill
-  \large{Aug 2020 - Present}
-  \begin{itemize}[noitemsep]
-    \item Developed low-latency financial markets infrastructure written in C and run in Linux Environments
-    \item Developed the client interface for trading with Miami Equities Exchange (MIAX) through HPR's risk checking platform
-    \item Added Gitlab CI job to build and run nightly regression tests with Address Sanitizer flags for detecting memory corruptions
-    \item Converted internal and 3rd party tool packages from RPMs to DEB packages as part of move to Ubuntu for 200 Production servers
-    \item Created debian packages for distributing and installing kernel modules and thirdparty software as part of move to Ubuntu server from CentOS
-    \item Debugging TCP issues through HPR's FPGA based risk checking solution including custom client network stacks
-  \end{itemize}
-
-  \large{\textbf{WPI CS Department: Teaching Assistant}}
-  \hfill
-  \large{Jan 2020 - Mar 2020}
-  \begin{itemize}[noitemsep]
-    \item TA for undergraduate Operating Systems class. Responsibilities included grading quizzes, holding office hours and assisting students with projects including recomplining the linux kernel with additional syscalls. Grading projects included creating test cases and scripting the project evaluation.
-  \end{itemize}
-
-  \large{\textbf{Providence Steamboat, Interlake Steamship: Maritime Engineer}}
-  \hfill
-  \large{Sep 2010 - Aug 2019}
-  \begin{itemize}[noitemsep]
-    \item Assistant Engineer/ Chief Engineer on vessels of length 90 to 1000 feet. Maintence of main engines, generators and hydraulics.
-  \end{itemize}
-
-\end{tcolorbox}
-
-\begin{tcolorbox}
-
-  {\fontfamily{bch}\selectfont
-    \begin{center}
       \LARGE{Publications}
     \end{center}
   }
@@ -130,8 +131,9 @@
   \large\textbf{Memory-Efficient Deep Learning Inference in Trusted Execution Environment }
   \href{http://arxiv-export-lb.library.cornell.edu/abs/2104.15109?context=cs.LG}{[Link]}
   \begin{itemize}[noitemsep]
-    \item Examined handle inference within a trusted execution environment
-    \item Accepted to 2021 IEEE Conference on Cloud Computing
+  \item Ported Darknet Neural Network framework to run in Intel SGX enclaves on Azure DC Series VMs.
+    \item Achieved 26X latency improvement over unmodified Darknet in SGX Enclave.
+    \item Paper accepted to 2021 IEEE Conference on Cloud Computing.
   \end{itemize}
 \end{tcolorbox}
 
@@ -146,13 +148,14 @@
 
   \tcblower
 
+  \large
   \begin{multicols}{2}
   \begin{itemize}[noitemsep]
-    \item{Linux: CentOS and Ubuntu}
+    \item{Linux: CentOS, Ubuntu}
     \item{Scripting Languages: Bash, Perl, Python}
+    \item{Altera FPGA tools: Quartus, Platform Designer, Modelsim and NIOS II softcore processor}
     \item{Debian Packaging: debhelper}
     \item{Networking tools: tcpdump, wireshark, ethtool, iperf, ss}
-    \item{Altera FPGA tools: Quartus, Platform Designer, Modelsim and NIOS II softcore processor}
   \end{itemize}
   \end{multicols}
 
